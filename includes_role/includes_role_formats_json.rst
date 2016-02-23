@@ -29,7 +29,7 @@ The |json| format for roles maps directly to the domain-specific |ruby| format: 
        "dev": [
          "role[base]",
          "recipe[apache]",
-         "recipe[apache::copy_dev_configs]",
+         "recipe[apache::copy_dev_configs]"
        ],
         "test": [
          "role[base]",
